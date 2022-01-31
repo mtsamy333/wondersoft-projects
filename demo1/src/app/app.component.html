@@ -1,0 +1,13 @@
+<!-- <h1>hi this is just demo</h1>
+
+<button class="btn btn-success" (click)="addation()">Add</button> -->
+
+<h1>Data Sharing</h1>
+
+<div>
+  passdata<input type="text" #myname>
+  <input type="text" value="send" (click)="senddata(myname.value)">
+
+  <hr>
+  <app-home [parentData]="parentData"></app-home>
+</div>
